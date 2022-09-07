@@ -5,3 +5,9 @@ def dog():
 
 dog()
     
+
+pet=['beagle','chihuaua','siberian husky']
+
+print(pet[0:2])
+    
+print(pet)
