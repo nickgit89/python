@@ -1,3 +1,6 @@
+from webbrowser import BackgroundBrowser
+
+
 class hair:
     def __init__(self, color, length, texture):
         self.color = color
@@ -7,5 +10,12 @@ class hair:
     def cuthair(self, str="clip, clip, clip"):
         print(str)
 
-myhair = hair(brown,long,straight)
-    
+class myhair(hair):
+    def __init__ (self, color, length, texture):
+        self.color = color
+        self.length = length
+        self.texture = texture
+
+hair = myhair("brown", "long", "straight")
+
+print(hair.color)
