@@ -19,3 +19,18 @@ class myhair(hair):
 hair = myhair("brown", "long", "straight")
 
 print(hair.color)
+
+
+class infraction:
+    def __init__(self, type, fine, jailtime):
+        self.type = type
+        self.fine = fine
+        self.jailtime = jailtime
+    
+felony = infraction("severe", 2000, "yes")
+
+print(felony.type)
+
+misdemeanor = infraction("less_serious", "500", "no")
+
+print(misdemeanor.jailtime)
