@@ -8,3 +8,12 @@ namesofpeoplelist = list(Namesofpeople)
 namesofpeoplelist.pop()
 
 print(namesofpeoplelist)
+
+
+Namesofcars = {
+    "First car": "Alero",
+    "second car": "Buick",
+    "third car": "corvette"
+}
+
+print(Namesofcars)
