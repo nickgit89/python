@@ -10,5 +10,5 @@ print(mylist[::-1])
 
 mydict= {"three":"unique", "two": 2, "four": False}
 
-
+mydict2={"html":"language", "javascript": "comment"}
 print(mydict["four"])
