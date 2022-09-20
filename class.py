@@ -34,3 +34,14 @@ print(felony.type)
 misdemeanor = infraction("less_serious", "500", "no")
 
 print(misdemeanor.jailtime)
+
+
+class fine:
+    def __init__(self, type, money):
+        self.type= type
+        self.fine= fine
+        self.money= money
+
+    bigfine = fine("ticket", "50", "USD")
+
+print(bigfine)
