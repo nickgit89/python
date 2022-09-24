@@ -18,5 +18,4 @@ func2(10, 30)
 print(func2(10, 30))
 
 
-print(cube(3))
-
+        
