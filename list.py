@@ -6,3 +6,7 @@ filtermylist1 = [item for item in mylist1 if item % 10 == 0 ]
 
 
 print(filtermylist1)
+
+
+mydict = {"maria" : "partner", "john" : "assistant", "nick" : "owner"}
+
