@@ -1,4 +1,4 @@
-mylist= ["switch", "router", "ethernet", "rj11"]
+mylist= ["switch", "router", "ethernet", "rj11", "rj45"]
 
 
 mylist1 = list(range(100))
