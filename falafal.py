@@ -20,7 +20,10 @@ water = ["lake", "river", "ocean"]
 
 water2 = water.pop()
 
+water.append("puddle")
+
 print(water2)
+print(water)
 
 
 
