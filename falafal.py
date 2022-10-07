@@ -14,9 +14,16 @@ pine= trees.pop()
 
 print(pine)
 
-trees.insert[4, "willow"]
+print(trees)
 
-print[trees]
+water = ["lake", "river", "ocean"]
+
+water2 = water.pop()
+
+print(water2)
+
+
+
 
 
 
