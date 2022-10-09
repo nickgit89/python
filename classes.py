@@ -16,4 +16,12 @@ class Hurricane():
 Ian = Hurricane("ian", 155, "lots", "catastrophic")
 
 
-    
+class Tornado():
+    def __init__(self, warning, wind, shape):
+        self.warning = warning
+        self.wind = wind
+        self.shape = shape
+
+Cyclone = Tornado("unexpected", "strong", "circle")
+
+print(Cyclone.wind)
