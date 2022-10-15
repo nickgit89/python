@@ -29,3 +29,23 @@ print(soccerteams[3].title())
 soccerteams.insert(1, "mexico City")
 
 print(f"{soccerteams[1].title()} is the soccer team closest to me here in the United States")
+
+del soccerteams[4]
+
+print(soccerteams)
+
+FC = soccerteams.pop()
+
+print(FC)
+
+soccerteams.remove('mexico City')
+
+soccerteams.append(FC)
+
+soccerteams.sort()
+
+print(soccerteams)
+
+Footballteams = ["Dallas Cowboys", "Miami Dolphins", "tenessee titans"]
+
+print(sorted(Footballteams))
