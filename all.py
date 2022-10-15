@@ -14,3 +14,10 @@ mystring = ("my name is nick. My last initial is \'s\'")
 mystring.split(".")
 
 print(mystring)
+
+
+import math
+
+print(int(math.sqrt(144)))
+
+print(math.gcd(52,8))
