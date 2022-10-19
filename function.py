@@ -13,3 +13,5 @@ connection
 
 output = connection.send_command("show ip interface brief")
 print(output)
+
+
