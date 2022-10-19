@@ -17,6 +17,23 @@ def cube(x):
 func2(10, 30)
 print(func2(10, 30))
 
+def exponentofthree(value):
+    return 3 ** value
+
+print(exponentofthree(4))
+
+
+list = [1,2,3,4]
+
+def appendlist():
+    number = int(input("Please put a number:"))
+    list.append(number)
+
+appendlist()
+
+print(list)
+
+
 
 
         
