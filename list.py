@@ -10,3 +10,7 @@ print(filtermylist1)
 
 mydict = {"maria" : "partner", "john" : "assistant", "nick" : "owner"}
 
+mylist[0:1] = "Cisco Switch", "Juniper Switch"
+
+print(mylist)
+
