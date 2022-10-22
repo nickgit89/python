@@ -49,3 +49,5 @@ print(soccerteams)
 Footballteams = ["Dallas Cowboys", "Miami Dolphins", "tenessee titans"]
 
 print(sorted(Footballteams))
+
+print(sorted(Footballteams, reverse=True))
