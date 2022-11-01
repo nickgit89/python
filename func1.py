@@ -10,7 +10,8 @@ print(func1)
 def func2(arg1, arg2):
     print (arg1," ", arg2)
 
-def cube(x):
+def cube():
+    x= int(input("Please put a number, so we can find it cubed:"))
     return x * x * x
 
 
@@ -31,7 +32,11 @@ def appendlist():
 
 appendlist()
 
+cube()
+
 print(list)
+
+
 
 
 
