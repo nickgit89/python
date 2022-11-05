@@ -21,6 +21,6 @@ for x in range (0, 20):
         continue
     if x == 13:
         break
-        print("In IF:", x)
+    
     
     print(x)
