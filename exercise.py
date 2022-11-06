@@ -7,5 +7,5 @@ for x in range(length):
     print(astr)
     astr += "<>"
 
-    
+
     
