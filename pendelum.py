@@ -16,4 +16,6 @@ datetime3 = pendulum.now()
 print(datetime3)
 print(datetime3.timezone.name)
 
+now_in_france = pendulum.now('Europe/Paris')
 
+print(now_in_france)
