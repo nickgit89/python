@@ -37,11 +37,11 @@ print(misdemeanor.jailtime)
 
 
 class fine:
-    def __init__(self, type, money):
+    def __init__(self, type, money, currency):
         self.type= type
         self.fine= fine
         self.money= money
 
-    bigfine = fine("ticket", "50", "USD")
+bigfine = fine("ticket", "50", "USD")
 
 print(bigfine)
