@@ -12,3 +12,4 @@ mythic.pop('age')
 mythic['service']='Appletv'
 
 print(mythic)
+print(mythic['source'])
