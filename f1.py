@@ -18,9 +18,9 @@ subscribed = []
 
 if netflix == "netflix":
     subscribed.append(netflix)
-else:
-    continue
 
 print(subscribed)
 
-subscribed.insert("spotify")
+subscribed.insert(1,"spotify")
+
+print(subscribed)
