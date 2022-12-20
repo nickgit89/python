@@ -13,3 +13,14 @@ streamingservices.extend(["disney", "netflix"])
 print(streamingservices.count("hulu"))
 
 netflix = streamingservices.pop()
+
+subscribed = []
+
+if netflix == "netflix":
+    subscribed.append(netflix)
+
+print(subscribed)
+
+subscribed.insert(1,"spotify")
+
+print(subscribed)
