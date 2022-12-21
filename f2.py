@@ -19,3 +19,7 @@ print(trees)
 del trees["apple"]
 
 print("palm" in trees)
+
+trees.clear()
+
+print(trees)
