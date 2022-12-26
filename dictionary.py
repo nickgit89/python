@@ -17,3 +17,14 @@ Namesofcars = {
 }
 
 print(Namesofcars['First car'])
+
+Namesofstates = {
+    "Rocky Mountains": "Idaho",
+    "Peninsula": "Michigan",
+    "island" : "Hawaii"
+}
+
+Namesofstates["new england"] = "Massachusetts"
+
+print(Namesofstates)
+
