@@ -4,3 +4,7 @@ print(sorted(streamingservices))
 
 for streamingservice in streamingservices:
     print(streamingservice)
+
+streamingservices.insert(2, "disney plus")
+
+print(streamingservices)
