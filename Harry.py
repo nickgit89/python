@@ -10,5 +10,7 @@ elif character == "Severus Snape":
     print("Severus loved Lilly very much")
 elif character == "Ron Weasley":
     print("Ron was Harry's best friend")
+elif character == "Dumbledore":
+    print("Dumbledore was headmaster of Hogwarts")
 else:
     print("I do not have information on that character.")
