@@ -14,7 +14,7 @@ for government in governments:
     print(f"{government.title()} is a type of government")
 
 
-soccerteams = ["liverpool", "wrexham", "FC"]
+soccerteams = ["liverpool", "wrexham", "FC", "Premier"]
 
 print(soccerteams[1])
 
