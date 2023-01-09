@@ -1,4 +1,4 @@
-mythic = {'type': 'game', 'source': 'show', 'age': 'medieval'}
+mythic = {'type': 'game', 'source': 'show', 'age': 'medieval', 'actor': "rob"}
 
 mythic.update({'source':'video game'})
 
